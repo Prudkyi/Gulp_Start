@@ -1,0 +1,18 @@
+@import "../virable/main_var";
+
+%btn-1 {
+  border-radius: 7px;
+  padding: 10px 25px 9px;
+  margin: 0;
+  box-shadow: 1px 1px 3px #111111;
+  background-color: $color-2;
+  font-size: 20px;
+  color: $btn-1_text;
+  font-family: $font-thue;
+  text-transform: uppercase;
+  position: relative;
+  transition: all 0.2s;
+}
+%btn-1-hover {
+  background-color: $btn-1-hover-bg;
+}
